@@ -11,7 +11,8 @@
     "stylelint": "stylelint **/*.{css,less,scss} --fix",
     "prettier": "prettier -c --write \"**/*\"",
     "prepare": "husky install",
-    "commitlint": "commitlint --config .commitlintrc.cjs -e -V"
+    "commitlint": "commitlint --config .commitlintrc.cjs -e -V",
+    "preinstall": "npx only-allow pnpm"
   },
   "dependencies": {
     "react": "^18.2.0",
