@@ -1,5 +1,3 @@
-import './App.css';
-
 import router from '@/config/routes';
 import { RouterProvider } from 'react-router-dom';
 
