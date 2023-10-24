@@ -1,8 +1,9 @@
 import { createBrowserRouter } from 'react-router-dom';
+import loadable from '@loadable/component';
 
 import Layout from '@/layout';
-import Home from '@/pages/home';
-import Docs from '@/pages/docs';
+const Home = loadable(() => import('@/pages/home'));
+const Docs = loadable(() => import('@/pages/docs'));
 
 const routes = createBrowserRouter([
   {
