@@ -1,5 +1,9 @@
+import { useDemoQuery } from '@/services/demo';
+
 const Home = () => {
-  return <div>Home</div>;
+  const {} = useDemoQuery();
+
+  return <div className='text-3xl font-bold underline'>Home</div>;
 };
 
 export default Home;
