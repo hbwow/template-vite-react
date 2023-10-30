@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^17.8.1
     version: 17.8.1
   '@hbwow/lints':
-    specifier: ^2.1.0
-    version: 2.1.0(eslint@8.52.0)(prettier@3.0.3)(styled-components@6.0.7)(stylelint@15.11.0)(typescript@5.2.2)
+    specifier: ^2.1.1
+    version: 2.1.1(eslint@8.52.0)(prettier@3.0.3)(styled-components@6.0.7)(stylelint@15.11.0)(typescript@5.2.2)
   '@tanstack/eslint-plugin-query':
     specifier: ^5.0.5
     version: 5.0.5(eslint@8.52.0)(typescript@5.2.2)
@@ -2253,8 +2253,8 @@ packages:
       - moment
     dev: false
 
-  /@hbwow/lints@2.1.0(eslint@8.52.0)(prettier@3.0.3)(styled-components@6.0.7)(stylelint@15.11.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-IVaVtHtwQoN1TNfnB904G+NfR4aQw2iuMkCfbhZIS91DgCkoujmb2DhYj/hdqyfbbZjb6E3DI76CyP+H/DQaeA==}
+  /@hbwow/lints@2.1.1(eslint@8.52.0)(prettier@3.0.3)(styled-components@6.0.7)(stylelint@15.11.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-LF+t1Ye2lgBWXyhZlGD6YOj1OQHD+679+LzsffKOWC8TRd7TwkAB5znOgly07g78/5qZJ7cf88kpnJI2/xQZ4Q==}
     dependencies:
       '@umijs/lint': 4.0.80(eslint@8.52.0)(styled-components@6.0.7)(stylelint@15.11.0)(typescript@5.2.2)
       eslint-config-prettier: 8.10.0(eslint@8.52.0)
@@ -2511,7 +2511,7 @@ packages:
       postcss: '>=7.0.0'
       postcss-syntax: '>=0.36.2'
     dependencies:
-      '@babel/core': 7.21.0
+      '@babel/core': 7.22.17
       postcss: 8.4.31
       postcss-syntax: 0.36.2(postcss@8.4.31)
     transitivePeerDependencies:
