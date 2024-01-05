@@ -21,10 +21,13 @@ export const layoutRoutes = {
   children: [
     {
       path: '/',
+      name: '首页',
+      // hideInMenu: true,
       element: <Home />,
     },
     {
       path: '/docs',
+      name: '文档',
       element: <Docs />,
     },
   ],
