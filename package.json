@@ -4,15 +4,19 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "vite --host",
+    "build": "vite build",
+    "dev:uat": "vite --host --mode uat",
+    "build:uat": "vite build --mode uat",
+    "build:tsc": "tsc && vite build",
     "preview": "vite preview",
     "eslint": "eslint src --fix --ext .js,.jsx,.ts,.tsx",
     "stylelint": "stylelint **/*.{css,less,scss} --fix",
     "prettier": "prettier -c --write \"**/*\"",
     "prepare": "husky install",
     "commitlint": "commitlint --config .commitlintrc.cjs -e -V",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "swagger": "node swagger.config.js"
   },
   "dependencies": {
     "@ant-design/pro-components": "^2.6.35",
@@ -44,6 +48,7 @@
     "@vitejs/plugin-react-swc": "^3.4.0",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.52.0",
+    "free-swagger": "^5.4.3",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
     "postcss": "^8.4.31",
