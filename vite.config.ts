@@ -29,7 +29,7 @@ export default defineConfig(({ command, mode }) => {
       },
     },
     server: {
-      port: 9090,
+      port: 8089,
       proxy: {
         '/githubApi': {
           target: BASE_URL,
