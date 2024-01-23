@@ -24,7 +24,7 @@
     "@hbwow/hooks": "^2.5.0",
     "@hbwow/pdf-viewer": "^1.0.0",
     "@hbwow/router-animation": "^0.0.2",
-    "@hbwow/utils": "^2.2.0",
+    "@hbwow/utils": "^2.2.3",
     "@hbwow/validate-antd": "^1.0.0",
     "@loadable/component": "^5.15.3",
     "@tanstack/react-query": "^4.36.1",
