@@ -10,7 +10,7 @@ import logo from '@/assets/images/logo.png';
 import avatar from '@/assets/images/avatar.png';
 
 import { clearAllLocal, getLocalToken } from '@/utils/storage';
-import { layoutRoutes as localRoutes } from '@/config/routes';
+import { layoutRoutes as localRoutes } from '@/config';
 
 // eslint-disable-next-line no-console
 console.log('🚀🚀🚀 ~ getLocalToken:', getLocalToken);
