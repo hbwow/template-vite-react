@@ -9,8 +9,8 @@ dependencies:
     specifier: ^2.6.35
     version: 2.6.43(antd@5.13.2)(rc-field-form@1.41.0)(react-dom@18.2.0)(react@18.2.0)
   '@hbwow/components':
-    specifier: ^2.13.0
-    version: 2.13.0(antd@5.13.2)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.13.1
+    version: 2.13.1(antd@5.13.2)(react-dom@18.2.0)(react@18.2.0)
   '@hbwow/hooks':
     specifier: ^2.5.0
     version: 2.5.0(@types/react@18.2.33)(antd@5.13.2)(react-dom@18.2.0)(react@18.2.0)
@@ -21,8 +21,8 @@ dependencies:
     specifier: ^0.0.2
     version: 0.0.2(react-dom@18.2.0)(react@18.2.0)
   '@hbwow/utils':
-    specifier: ^2.2.0
-    version: 2.2.0(antd@5.13.2)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.3.0
+    version: 2.3.0(antd@5.13.2)(react-dom@18.2.0)(react@18.2.0)
   '@hbwow/validate-antd':
     specifier: ^1.0.0
     version: 1.0.0(react-dom@18.2.0)(react@18.2.0)
@@ -2607,8 +2607,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@hbwow/components@2.13.0(antd@5.13.2)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-rWbJVCLTNCjS6Bcnd/DhtdGyctHJBSkB2Xig+o2vXcpgu0NNdyda83YMWyUpsWYcaeI1VGG3b0cu4fYeotWMmQ==}
+  /@hbwow/components@2.13.1(antd@5.13.2)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-6sz73gEQ+59TEy6JVBf92mm4WiEU4k+EAo23PlWUJ6H5BkpQqmTursfO2rktIquaKwu940D6OU6YNh+NeV3TSA==}
     engines: {node: '>= 16.14.0'}
     peerDependencies:
       antd: ^5.11.2
@@ -2691,8 +2691,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@hbwow/utils@2.2.0(antd@5.13.2)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-1xkoU1zSFpuFeJzC9u12iST1b9LKNo8y4tPt3uRNzwDGD6Lyq9VfuAmYQF3sStFT0wyf7eY68X5RhFUo06NQHQ==}
+  /@hbwow/utils@2.3.0(antd@5.13.2)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-McHuHbLIGwLo/bpmeVdDSi/fb13LZi7HGTVuz2LAsnYD3b6AJov0DF+SeoE6sAYx8bTV9LZe2KDg3mLo8hLvnw==}
     engines: {node: '>= 16.14.0'}
     peerDependencies:
       antd: ^5.11.2
