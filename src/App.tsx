@@ -2,7 +2,10 @@ import router from '@/config';
 import { RouterProvider } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import { ConfigProvider } from '@hbwow/validate-antd';
+import { ConfigProvider as ConfigProviderValidateAntd } from '@hbwow/validate-antd';
+import { StyleProvider } from '@ant-design/cssinjs';
+import { HandleInterceptorCodeCom } from '@hbwow/utils';
+import { ConfigProvider } from 'antd';
 
 // react-query 全局配置
 const queryClient = new QueryClient({
@@ -37,12 +40,24 @@ function App() {
   };
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <ConfigProvider rulesMap={rulesMap}>
-        <RouterProvider router={router} />
-        <ReactQueryDevtools initialIsOpen={false} />
+    <StyleProvider hashPriority='high'>
+      <ConfigProvider
+        theme={{
+          token: {
+            // colorPrimary: '#00b96b',
+            // colorInfo: '#00b96b',
+          },
+        }}
+      >
+        <QueryClientProvider client={queryClient}>
+          <ConfigProviderValidateAntd rulesMap={rulesMap}>
+            <RouterProvider router={router} />
+            <ReactQueryDevtools initialIsOpen={false} />
+          </ConfigProviderValidateAntd>
+        </QueryClientProvider>
+        <HandleInterceptorCodeCom />
       </ConfigProvider>
-    </QueryClientProvider>
+    </StyleProvider>
   );
 }
 

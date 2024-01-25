@@ -94,7 +94,7 @@ const Layout = () => {
       }}
     >
       <RouterAnimation action={action} motionKey={location.pathname}>
-        <div style={{ display: !isLoadingMenu ? 'none' : 'block' }} className='py-32 px-40'>
+        <div style={{ display: !isLoadingMenu ? 'none' : 'block' }}>
           <CustomSuspense isLoading={true} />
         </div>
         <div style={{ display: isLoadingMenu ? 'none' : 'block' }}>
