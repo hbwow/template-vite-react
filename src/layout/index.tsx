@@ -11,6 +11,7 @@ import avatar from '@/assets/images/avatar.png';
 
 import { clearAllLocal, getLocalToken } from '@/utils/storage';
 import { layoutRoutes as localRoutes } from '@/config';
+import { wrapLoadableStyle } from '@/config/wrapLoadable';
 
 // eslint-disable-next-line no-console
 console.log('🚀🚀🚀 ~ getLocalToken:', getLocalToken);
@@ -92,10 +93,11 @@ const Layout = () => {
           );
         },
       }}
+      contentStyle={{ padding: 0 }}
     >
       <RouterAnimation action={action} motionKey={location.pathname}>
         <div style={{ display: !isLoadingMenu ? 'none' : 'block' }}>
-          <CustomSuspense isLoading={true} />
+          <CustomSuspense isLoading={true} loadingComProps={{ style: { ...wrapLoadableStyle } }} />
         </div>
         <div style={{ display: isLoadingMenu ? 'none' : 'block' }}>
           <RouteAuthorization
