@@ -49,6 +49,7 @@
     "@vitejs/plugin-react-swc": "^3.4.0",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.52.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
     "free-swagger": "^5.4.3",
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
