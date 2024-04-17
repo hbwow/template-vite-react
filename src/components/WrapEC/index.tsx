@@ -48,12 +48,12 @@ const WrapEC = memo(
             offset={SEARCH_COL_SPAN * 2}
             className='flex justify-end bg-white'
           >
-            <Button className='mr-3' type='primary' onClick={onSearch}>
+            <Button className='mr-4' type='primary' onClick={onSearch}>
               查询
             </Button>
             <Button
               className={cx('', {
-                'mr-3': isEc,
+                'mr-4': isEc,
               })}
               onClick={onReset}
             >
