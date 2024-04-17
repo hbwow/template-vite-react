@@ -1,7 +1,7 @@
 import { NavLink, Outlet, useNavigationType } from 'react-router-dom';
 import { useNavigate, useLocation } from 'react-router-dom';
 
-import { ProLayout } from '@ant-design/pro-components';
+import ProLayout from '@ant-design/pro-layout';
 import RouterAnimation from '@hbwow/router-animation';
 import { Button, Dropdown } from 'antd';
 import { RouteAuthorization, CustomSuspense } from '@hbwow/components';
