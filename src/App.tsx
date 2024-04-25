@@ -13,8 +13,8 @@ const queryClient = new QueryClient({
     queries: {
       refetchOnWindowFocus: false, // 窗口聚焦重新获取
       retry: false, // 查询重试
-      cacheTime: 5 * 1e3, // 过期时间
-      staleTime: 5 * 1e3, // 过期时间
+      cacheTime: 2 * 1e3, // 过期时间
+      staleTime: 2 * 1e3, // 过期时间
       refetchOnMount: 'always',
     },
   },
