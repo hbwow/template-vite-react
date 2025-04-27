@@ -1,7 +1,7 @@
 import { NavLink, Outlet, useNavigationType } from 'react-router-dom';
 import { useNavigate, useLocation } from 'react-router-dom';
 
-import ProLayout from '@ant-design/pro-layout';
+import { ProLayout } from '@ant-design/pro-components';
 import RouterAnimation from '@hbwow/router-animation';
 import { Button, Dropdown } from 'antd';
 import { RouteAuthorization, CustomSuspense } from '@hbwow/components';
@@ -55,9 +55,9 @@ const Layout = () => {
       token={{
         bgLayout: '#FAFAFA',
         header: {
-          colorBgHeader: '#1D1F20',
-          colorHeaderTitle: '#FFFFFF',
-          colorTextRightActionsItem: '#C4C7CA',
+          colorBgHeader: '#1890ff',
+          colorHeaderTitle: '#fff',
+          colorTextRightActionsItem: '#fff',
         },
       }}
       onMenuHeaderClick={() => {

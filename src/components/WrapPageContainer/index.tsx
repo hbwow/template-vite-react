@@ -6,7 +6,7 @@ import { memo } from 'react';
 import { Link } from 'react-router-dom';
 import { merge } from 'lodash-es';
 
-import { PageContainer, PageContainerProps } from '@ant-design/pro-layout';
+import { PageContainer, PageContainerProps } from '@ant-design/pro-components';
 import { RiArrowLeftLine } from 'react-icons/ri';
 
 function itemRender(item, params, items, paths) {
